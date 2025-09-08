@@ -12,82 +12,76 @@ python-nmap==0.7.1
 python-whois==0.8.0
 dnspython==2.4.2
 
-# Security and Cryptography
-cryptography==41.0.8
-pyOpenSSL==23.3.0
-certifi==2023.7.22
+# Security and Cryptography (Compatible versions)
+cryptography>=3.4.8,<46.0.0
+pyOpenSSL>=23.0.0
+certifi>=2023.7.22
 
 # Data Processing and Analysis
-pandas==2.0.3
-numpy==1.24.3
+pandas>=2.0.0
+numpy>=1.24.0
 
 # Date and Time Utilities
-python-dateutil==2.8.2
+python-dateutil>=2.8.0
 
 # Testing Framework
-pytest==8.3.3
-pytest-cov==4.1.0
-pytest-mock==3.11.1
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
 
 # Development and Code Quality Tools
-black==23.9.1
-flake8==6.1.0
-bandit==1.7.5
+black>=23.0.0
+flake8>=6.0.0
+bandit>=1.7.0
 
 # Database Connectivity (Optional)
-psycopg2-binary==2.9.7
-redis==5.0.1
+psycopg2-binary>=2.9.0
+redis>=4.0.0
 
 # Environment and Configuration
-python-dotenv==1.0.0
+python-dotenv>=1.0.0
 
 # JSON Web Tokens (Optional for API authentication)
-PyJWT==2.8.0
+PyJWT>=2.8.0
 
 # CORS Support for API
-flask-cors==4.0.0
+flask-cors>=4.0.0
 
 # Rate Limiting for API Security
-flask-limiter==3.5.0
+flask-limiter>=3.0.0
 
 # Logging and Monitoring
-structlog==23.2.0
+structlog>=23.0.0
 
 # Security Headers
-flask-talisman==1.1.0
+flask-talisman>=1.0.0
 
 # Input Validation
-marshmallow==3.20.1
-
-# Async Support (Optional)
-asyncio==3.4.3
+marshmallow>=3.19.0
 
 # System Information
-psutil==5.9.6
-
-# File Operations
-pathlib2==2.3.7
+psutil>=5.9.0
 
 # Regular Expressions (Enhanced)
-regex==2023.10.3
+regex>=2023.0.0
 
-# IP Address Utilities
-ipaddress==1.0.23
+# Additional Security Tools
+scapy>=2.5.0
+netaddr>=0.8.0
+ipwhois>=1.2.0
 
-# Socket Operations (Built-in, but for reference)
-# socket - Built-in Python module
+# Web Security Testing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
 
-# Threading Support (Built-in)
-# threading - Built-in Python module
+# Async Support
+aiohttp>=3.8.0
 
-# Subprocess Operations (Built-in)
-# subprocess - Built-in Python module
+# CLI Tools
+click>=8.0.0
 
-# Time Operations (Built-in)
-# time - Built-in Python module
+# Configuration Management
+pyyaml>=6.0
 
-# Datetime Operations (Built-in)
-# datetime - Built-in Python module
-
-# Warnings Control (Built-in)
-# warnings - Built-in Python module
+# Monitoring and Metrics
+prometheus-client>=0.17.0
