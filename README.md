@@ -399,6 +399,33 @@ This project is a **complete cybersecurity automation platform** that provides:
 ✅ **Commercial Viability** - Revenue generation potential  
 ✅ **Portfolio Value** - Impressive addition for career growth  
 
+## 🚀 Quick Deployment Options
+:
+
+**🔥 Method 1: GitHub Actions (Recommended)**
+- GitHub repository में जाएं
+- Actions tab 
+- "Complete Automated Deployment Pipeline"
+- "Run workflow"
+
+**🐳 Method 2: Docker Pull & Run**
+- docker pull dockerhub_username/cybersec-platform:latest
+- docker run -p 5000:5000 dockerhub_username/cybersec-platform:latest
+
+- Access: http://localhost:5000
+
+**🐳 Method 3: Docker Compose**
+- git clone your-repo-url
+- cd your-repo
+- docker-compose up -d
+- Access: http://localhost:5000
+
+**Kubernetes**
+- kind create cluster
+- kubectl apply -f deployment.yaml
+- kubectl apply -f service.yaml
+- kubectl port-forward svc/cybersec-platform 5000:5000
+
 **🔒 Built with ❤️ for the cybersecurity community using modern DevOps practices and enterprise-grade architecture.**
 
 **⚡ Ready for production deployment with complete automation, security scanning, and professional-grade infrastructure.**
