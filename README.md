@@ -386,28 +386,6 @@ python src/main.py
 - **Resource Usage** - CPU, memory utilization
 - **Security Events** - Threat detection logs
 
-## 🚀 Future Enhancements
-
-### Planned Features:
-- **Machine Learning** - Threat intelligence
-- **Advanced Reporting** - PDF generation
-- **Multi-tenancy** - Organization support
-- **API Rate Limiting** - Enhanced security
-- **Mobile App** - Cross-platform support
-
-## 📞 Support and Contact
-
-### 🔗 Project Links:
-- **GitHub Repository**: https://github.com/your-username/cybersec-platform
-- **DockerHub**: https://hub.docker.com/r/himanshutoshniwal7570/cybersec-platform
-- **Documentation**: Complete project documentation
-- **Issues**: Bug reports and feature requests
-
-### 📧 Contact Information:
-- **Email**: your.email@example.com
-- **LinkedIn**: Professional networking
-- **Portfolio**: Complete project showcase
-
 ---
 
 ## 🎯 Project Summary
